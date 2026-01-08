@@ -14,7 +14,7 @@
 
 #text(size: 8pt, top-edge: 1em)[
   #{
-    for num in range(1, 37) {
+    for num in range(1, 38) {
       let filename
       if num < 10 {
         filename = directory + "/0" + str(num) + ".typ"
